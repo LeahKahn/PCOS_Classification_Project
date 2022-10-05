@@ -22,7 +22,7 @@ Based on levels of certain vitamins, hormone levels and physical activities, pre
 
 ## 2. Classification using ML Algorithms
 1.   Out of the 6 algorithms used, Naive Bayes performed the best with the **highest accuracy (83.7%)** and **highest precision(94.6%)** in comparison to other models.
-         | Accuracy | Precision | Recall 
+       Models | Accuracy | Precision | Recall 
       --- | --- | --- | ---
       *Logistic Regression* | `0.7703` | `0.5178` |  `0.8787`
       *Support Vector Machines* | `0.6666` | `0.3928` |  `0.6666`
