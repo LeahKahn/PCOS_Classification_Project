@@ -31,7 +31,7 @@ Based on levels of certain vitamins, hormone levels and physical activities, pre
       *Naive Bayes* | `0.8370` | `0.9464` |  `0.7361`
       *K-Nearest Neighbours* | `0.6000` | `0.1964` |  `0.5500`
       
-3.   After feature seelction using Wrapper method (Backward Elimination), 18 best features were seelcted which led to the following results:
+3.   After feature selection using Wrapper method (Backward Elimination), 18 best features were selected for training with Naive Bayes model which led to the following results:
       Metric | Score 
       --- | --- 
       *Accuracy* | `0.851852` 
