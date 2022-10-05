@@ -20,7 +20,7 @@ Based on levels of certain vitamins, hormone levels and physical activities, pre
 7.   PCOS Women have a **PRG(ng/mL) level between 0 to 1**, while non-PCOS women have PRG levels between -0.5 to 1.5
 8.   PCOS Women also experience **weight gain, hair-growth, skin-darkening, hair-loss, pimples and craving for fast-foods** after developing PCOS.
 
-## 2. Classification using ML Algorithms
+## 2. Classification using ML Algorithms [PCOS_Classification.ipynb]
 1.   Out of the 6 algorithms used, Naive Bayes performed the best with the **highest accuracy (83.7%)** and **highest precision(94.6%)** in comparison to other models.
        Models | Accuracy | Precision | Recall 
       --- | --- | --- | ---
