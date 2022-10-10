@@ -45,12 +45,12 @@ Based on levels of certain vitamins, hormone levels and physical activities, pre
  
  The Test Results obtained after the result are as follows:
  
- Class (Yes: 1  | No: 0) | Precision | Recall | F1-Score | Support
-      --- | --- | --- | --- | ---
-      0 | `0.94` | `0.96` |  `0.95` | 106
-      1 | `0.92` | `0.88` |  `0.90` | 56
-      Accuracy | - | - | 0.93 | 162
+   Class (Yes: 1  / No: 0) | Precision | Recall | F1-Score | Support
+   --- | --- | --- | --- | ---
+   0 | `0.94` | `0.96` |  `0.95` | 106
+   1 | `0.92` | `0.88` |  `0.90` | 56
+   Accuracy | - | - | 0.93 | 162
       
  
   ## 4. Web Integration
- (*to be started*)
+ (*work in progress*)
