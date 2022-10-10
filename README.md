@@ -4,7 +4,7 @@ Based on levels of certain vitamins, hormone levels and physical activities, pre
 ## Objectives: 
 1.   Analyse the PCOS dataset [https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos] :heavy_check_mark:
 2.   Perform Binary Classification task using following ML Algorithms: **Logistic Regression, SVM, Decision Trees, Random Forest, Naive Bayes and K-Nearest Neighbours** :heavy_check_mark:
-3.   Build Neural Network Model to perform Classification task. :hourglass_flowing_sand:
+3.   Build Neural Network Model to perform Classification task. :heavy_check_mark:
 4.   Using the trained Neural Model deploy it using Web Interface. :hourglass_flowing_sand:
 
 
@@ -38,8 +38,19 @@ Based on levels of certain vitamins, hormone levels and physical activities, pre
       *Precision* | `0.892857`
       *Recall* | `0.78125`
       
- ## 3. Neural Network Performance
- (*under progress*)
+ ## 3. Neural Network Performance [PCOS_CLassification_NeuralNetwork.ipynb]
+ Constructed a Neural Network model with PyTorch to classify features into PCOS and Non-PCOS categories.
+ The following is the architecture of the Neural Model:
+ ![Neural Model Architecture drawio](https://user-images.githubusercontent.com/55905682/194923061-efcabe53-e709-4be5-8d77-a30e4d08f517.png)
+ 
+ The Test Results obtained after the result are as follows:
+ 
+ Class (Yes: 1  | No: 0) | Precision | Recall | F1-Score | Support
+      --- | --- | --- | --- | ---
+      0 | `0.94` | `0.96` |  `0.95` | 106
+      1 | `0.92` | `0.88` |  `0.90` | 56
+      Accuracy | - | - | 0.93 | 162
+      
  
   ## 4. Web Integration
  (*to be started*)
